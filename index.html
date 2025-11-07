@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Young" />
     <meta name="description" content="우주에서 가장 뛰어난 AI 개발자" />
-    <link rel="shortcut icon" href="./images/호떡.ico" type="images/x-icon" />
+    <link rel="shortcut icon" href="./images/호떡.ico" type="image/x-icon" />
     <title>Young&#39;s Website</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script
@@ -14,7 +14,6 @@
     ></script>
   </head>
   <body>
-    <!-- header -->
     <header class="header">
       <div class="header__logo">
         <img class="header__logo__img" src="./images/호떡.ico" alt="logo" />
@@ -31,9 +30,7 @@
         </ul>
       </nav>
     </header>
-    <!-- Main -->
     <main>
-      <!-- home -->
       <section id="home">
         <img class="home__avatar" src="./images/호떡.jpg" alt="프로필 사진" />
         <h2 class="home__title">
@@ -44,10 +41,9 @@
         <a class="home__contact" href="#contact">연락처</a>
       </section>
 
-      <!-- about -->
       <section id="about" class="section max-container">
         <h2 class="title">Young</h2>
-        <p class="" description>
+        <p class="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse et
           necessitatibus consectetur cupiditate saepe eligendi quia possimus
           fugiat delectus fuga asperiores cumque blanditiis quaerat,
@@ -78,26 +74,100 @@
           <li class="job">
             <img src="./images/윈터.jfif" alt="윈터" />
             <div>
-              <p class="jop__name">윈터</p>
-              <p class="jop__period">2001년생</p>
+              <p class="job__name">윈터</p>
+              <p class="job__period">2001년생</p>
             </div>
           </li>
           <li class="job">
             <img src="./images/하니.jfif" alt="하니" />
             <div>
-              <p class="jop__name">팜하니</p>
-              <p class="jop__period">2004년생</p>
+              <p class="job__name">팜하니</p>
+              <p class="job__period">2004년생</p>
             </div>
           </li>
         </ul>
       </section>
-      <!-- skills -->
-      <section id="skills"></section>
-      <!-- work -->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">기술</h2>
+          <p class="description">언어 및 도구</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            aperiam sit cum eum ducimus, odio odit id, commodi ratione ab vel
+            fuga? Exercitationem harum enim laboriosam, voluptate cum
+            consectetur ducimus?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Alias facilis inventore laboriosam enim assumenda
+            quis, sed cumque delectus quae. Nesciunt similique officiis cumque
+            corrupti voluptates alias iure praesentium rerum voluptas.
+          </p>
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">언어</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>100%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 100%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>React</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Python</span><span>95%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 95%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">도구</h3>
+              <ul>
+                <li>VS Code</li>
+                <li>Colab</li>
+                <li>MySQL Workbench</li>
+                <li>Jupyter notebook</li>
+                <li>Pycharm</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">기타</h3>
+              <ul>
+                <li>Git/GitHub</li>
+                <li>Math</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
       <section id="work"></section>
-      <!-- license -->
       <section id="license"></section>
-      <!-- contact -->
       <section id="contact"></section>
     </main>
   </body>
